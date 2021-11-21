@@ -1,0 +1,24 @@
+{
+    "name": "pjotr/muis",
+    "description": "Helpers for getting data from opendata.muis.ee.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pjotr\\Muis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pjotr Savitski",
+            "email": "pjotr.savitski@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "easyrdf/easyrdf": "^1.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    }
+}
